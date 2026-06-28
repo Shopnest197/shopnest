@@ -40,4 +40,40 @@ button {
 }
 
 button:hover {
-    background: #ff1493;
+      background: #ff1493;}
+      
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffb6c1;
+    padding: 20px 40px;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+}
+
+header p {
+    color: white;
+    margin: 5px 0 0 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #ffeef5;
+}
+
+.hero h2 {
+    color: #d63384;
+    font-size: 36px;
+}
