@@ -160,3 +160,45 @@ nav a:hover{
 .product button:hover{
     background:#e91e63;
 }
+.categories{
+    padding:80px 10%;
+    background:#fff8fc;
+    text-align:center;
+}
+.categories h2{
+    font-size:40px;
+    color:#ff5fa2;
+    margin-bottom:40px;
+}
+.category-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.category-card{
+    background:white;
+    border-radius:20px;
+    padding:30px 20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.category-card:hover{
+    transform:translateY(-10px);
+}
+
+.emoji{
+    font-size:50px;
+    margin-bottom:15px;
+}
+
+.category-card h3{
+    color:#ff5fa2;
+    margin-bottom:10px;
+}
+
+.category-card p{
+    color:#666;
+    line-height:1.6;
+}
