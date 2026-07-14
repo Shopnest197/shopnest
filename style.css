@@ -63,3 +63,9 @@ button {
   border-radius: 20px;
   cursor: pointer;
 }
+.tagline {
+  font-family: "Brush Script MT", cursive;
+  font-size: 32px;
+  color: #b85c8a;
+  letter-spacing: 1px;
+}
