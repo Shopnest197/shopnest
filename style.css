@@ -16,10 +16,10 @@ header h1 {
 }
 
 .tagline {
-  font-family: "Brush Script MT", cursive;
+  font-family: cursive;
   font-size: 32px;
-  color: #b85c8a;
-  letter-spacing: 1px;
+  color:white;
+  font-style: italic
 }
 
 .featured {
