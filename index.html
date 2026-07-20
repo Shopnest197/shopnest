@@ -1,54 +1,354 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ShopNest</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopNest</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-  <header>
-    <h1>ShopNest</h1>
-    <p class="tagline">Handmade crochet creations</p>
-  </header>
+    <!-- ================= HEADER ================= -->
 
-  <section class="featured">
-    <h2>Featured Products</h2>
+    <header class="header">
 
-    <div class="products">
+        <div class="logo-section">
 
-      <div class="card">
-        <h3>Daisy Crochet Flower</h3>
-        <p>Handmade crochet flower</p>
-        <h4>₹199</h4>
-        <button>Add to Cart</button>
-      </div>
+            <h1 class="logo">ShopNest</h1>
 
-      <div class="card">
-        <h3>Bear Crochet Coaster</h3>
-        <p>Soft handmade coaster</p>
-        <h4>₹149</h4>
-        <button>Add to Cart</button>
-      </div>
+            <p class="tagline">
+                Handmade Crochet Creations
+            </p>
 
-      <div class="card">
-        <h3>Moon Crochet Keychain</h3>
-        <p>Cute handmade keychain</p>
-        <h4>₹99</h4>
-        <button>Add to Cart</button>
-      </div>
+        </div>
 
-      <div class="card">
-        <h3>Star Crochet Keychain</h3>
-        <p>Handmade star accessory</p>
-        <h4>₹99</h4>
-        <button>Add to Cart</button>
-      </div>
+        <div class="search-box">
+
+            <input
+                type="text"
+                placeholder="Search handmade crochet products..."
+            >
+
+            <button>🔍</button>
+
+        </div>
+
+        <div class="header-icons">
+
+            <a href="#">❤️ Wishlist</a>
+
+            <a href="#">🛒 Cart</a>
+
+            <a href="#">👤 Account</a>
+
+        </div>
+
+    </header>
+
+
+    <!-- =============== MAIN CONTAINER =============== -->
+
+    <div class="container">
+
+
+        <!-- ========= LEFT SIDEBAR ========= -->
+
+        <aside class="sidebar">
+
+            <h2>Shop by Category</h2>
+
+            <ul>
+
+                <li>Crochet Gifts</li>
+
+                <li>Spring Collection</li>
+
+                <li>Summer Collection</li>
+
+                <li>Fall Collection</li>
+
+                <li>Winter Collection</li>
+
+                <li>Baby Collection</li>
+
+                <li>Home Décor</li>
+
+                <li>Plushies</li>
+
+                <li>Bouquets & Flowers</li>
+
+                <li>Keychains</li>
+
+                <li>Crochet Charms</li>
+
+                <li>Bags & Accessories</li>
+
+            </ul>
+
+        </aside>
+
+
+
+        <!-- ========= PRODUCTS ========= -->
+
+        <main class="products">
+
+            <h2>All Products</h2>
+
+            <div class="product-grid">
+
+                <!-- PRODUCT 1 -->
+
+                <div class="product-card">
+
+                    <div class="product-image">
+
+                        Image
+
+                    </div>
+
+                    <h3>Daisy Flower</h3>
+
+                    <p>₹199</p>
+
+                </div>
+
+
+
+                <!-- PRODUCT 2 -->
+
+                <div class="product-card">
+
+                    <div class="product-image">
+
+                        Image
+
+                    </div>
+
+                    <h3>Tulip Bouquet</h3>
+
+                    <p>₹499</p>
+
+                </div>
+
+
+
+                <!-- PRODUCT 3 -->
+
+                <div class="product-card">
+
+                    <div class="product-image">
+
+                        Image
+
+                    </div>
+
+                    <h3>Bear Coaster</h3>
+
+                    <p>₹149</p>
+
+                </div>
+
+
+
+                <!-- PRODUCT 4 -->
+
+                <div class="product-card">
+
+                    <div class="product-image">
+
+                        Image
+
+                    </div>
+
+                    <h3>Moon Keychain</h3>
+
+                    <p>₹129</p>
+
+                </div>
+<!-- PRODUCT 5 -->
+
+                <div class="product-card">
+                    <div class="product-image">Image</div>
+                    <h3>Star Keychain</h3>
+                    <p>₹129</p>
+                </div>
+
+                <!-- PRODUCT 6 -->
+
+                <div class="product-card">
+                    <div class="product-image">Image</div>
+                    <h3>Mini Bee Plush</h3>
+                    <p>₹299</p>
+                </div>
+
+                <!-- PRODUCT 7 -->
+
+                <div class="product-card">
+                    <div class="product-image">Image</div>
+                    <h3>Lavender Bouquet</h3>
+                    <p>₹399</p>
+                </div>
+
+                <!-- PRODUCT 8 -->
+
+                <div class="product-card">
+                    <div class="product-image">Image</div>
+                    <h3>Strawberry Keychain</h3>
+                    <p>₹149</p>
+                </div>
+
+                <!-- PRODUCT 9 -->
+
+                <div class="product-card">
+                    <div class="product-image">Image</div>
+                    <h3>Sunflower Bouquet</h3>
+                    <p>₹449</p>
+                </div>
+
+                <!-- PRODUCT 10 -->
+
+                <div class="product-card">
+                    <div class="product-image">Image</div>
+                    <h3>Rose Bouquet</h3>
+                    <p>₹499</p>
+                </div>
+
+                <!-- PRODUCT 11 -->
+
+                <div class="product-card">
+                    <div class="product-image">Image</div>
+                    <h3>Heart Keychain</h3>
+                    <p>₹129</p>
+                </div>
+
+                <!-- PRODUCT 12 -->
+
+                <div class="product-card">
+                    <div class="product-image">Image</div>
+                    <h3>Cloud Charm</h3>
+                    <p>₹99</p>
+                </div>
+
+                <!-- PRODUCT 13 -->
+
+                <div class="product-card">
+                    <div class="product-image">Image</div>
+                    <h3>Rainbow Charm</h3>
+                    <p>₹109</p>
+                </div>
+
+                <!-- PRODUCT 14 -->
+
+                <div class="product-card">
+                    <div class="product-image">Image</div>
+                    <h3>Butterfly Charm</h3>
+                    <p>₹109</p>
+                </div>
+
+                <!-- PRODUCT 15 -->
+
+                <div class="product-card">
+                    <div class="product-image">Image</div>
+                    <h3>Bunny Plush</h3>
+                    <p>₹349</p>
+                </div>
+
+                <!-- PRODUCT 16 -->
+
+                <div class="product-card">
+                    <div class="product-image">Image</div>
+                    <h3>Panda Plush</h3>
+                    <p>₹399</p>
+                </div>
+
+                <!-- PRODUCT 17 -->
+
+                <div class="product-card">
+                    <div class="product-image">Image</div>
+                    <h3>Bear Plush</h3>
+                    <p>₹399</p>
+                </div>
+
+                <!-- PRODUCT 18 -->
+
+                <div class="product-card">
+                    <div class="product-image">Image</div>
+                    <h3>Whale Plush</h3>
+                    <p>₹349</p>
+                </div>
+
+                <!-- PRODUCT 19 -->
+
+                <div class="product-card">
+                    <div class="product-image">Image</div>
+                    <h3>Turtle Plush</h3>
+                    <p>₹349</p>
+                </div>
+
+                <!-- PRODUCT 20 -->
+
+                <div class="product-card">
+                    <div class="product-image">Image</div>
+                    <h3>Flower Coaster</h3>
+                    <p>₹149</p>
+                </div>
+</div>
+
+        </main>
 
     </div>
-  </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-section">
+
+            <h3>ShopNest</h3>
+
+            <p>
+                Handmade Crochet Creations made with love.
+            </p>
+
+        </div>
+
+        <div class="footer-section">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+
+                <li><a href="#">About Us</a></li>
+
+                <li><a href="#">Contact Us</a></li>
+
+                <li><a href="#">Shipping Policy</a></li>
+
+                <li><a href="#">Return Policy</a></li>
+
+                <li><a href="#">Privacy Policy</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="footer-section">
+
+            <h3>Follow Us</h3>
+
+            <p>📸 Instagram</p>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
 
 </body>
-</html>
+</html>          
